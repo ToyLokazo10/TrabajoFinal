@@ -8,7 +8,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Jugar()
     {
-        SceneManager.LoadScene(escenaNivel);
+        SceneManager.LoadScene("Nivel1");
     }
 
     public void Creditos()
